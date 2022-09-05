@@ -75,7 +75,48 @@ app.route("/articles/:articleTitle")
             res.send("No article matching that title was found.");
         }
     });
-});
+})
+
+.put(function(req, res){
+    Article.updateOne(
+        {title: req.params.articleTitle},
+        {title: req.body.title, content: req.body.content},
+        function(err){
+            if(!err) {
+                res.send("Article updated")
+            } else {
+                res.send("Unsuccessful")
+            }
+        }
+    );
+})
+
+.patch(function(req, res){
+    Article.updateOne(
+        {title: req.params.articleTitle},
+        {$set: req.body},
+        function(err){
+            if(!err){
+                res.send("Successfully updated")
+            } else {
+                res.send(err);
+            }
+        }
+    );
+})
+
+.delete(function(req, res){
+    Article.deleteOne(
+        {title: req.params.articleTitle},
+        function(err){
+            if(!err){
+                res.send("Successfully deleted")
+            } else {
+                res.send(err);
+            }
+        }
+    );
+})
 
 app.listen(3000, function(){
     console.log("Server started on port 3000")
