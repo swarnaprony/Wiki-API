@@ -1,0 +1,42 @@
+{
+        "_id": "62c490af62126f5c26ae8f9f",
+        "title": "REST",
+        "content": "REST is short for REpresentational State Transfer. It's an architectural style for designing API's."
+    },
+    {
+        "_id": "62c4ae7d62126f5c26ae8fb0",
+        "title": "API",
+        "content": "API stands for Application Programming Interface."
+    },
+    {
+        "_id": "62c4aed862126f5c26ae8fb1",
+        "title": "GUI",
+        "content": "GUI stands for graphical user interface."
+    },
+    {
+        "_id": "62c4af6e62126f5c26ae8fb2",
+        "title": "Bootstrap",
+        "content": "This is a framework developed by Twitter that contains pre-made front-end templates for web design"
+    },
+    {
+        "_id": "62c4af8b62126f5c26ae8fb3",
+        "title": "DOM",
+        "content": "The Document Object Model is like an API for interacting with our HTML"
+    },
+    {
+        "_id": "63121d0fd02c6ece47d04ea7",
+        "title": "Web Development",
+        "content": "Web Development is developing API for your browser"
+    },
+    {
+        "_id": "631255faa83f5044c1b31648",
+        "title": "Asif",
+        "content": "Do not love me",
+        "__v": 0
+    },
+    {
+        "_id": "6312576db9b49957411ec386",
+        "title": "Asif",
+        "content": "Do not love me",
+        "__v": 0
+    }
